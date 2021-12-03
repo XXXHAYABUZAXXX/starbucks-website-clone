@@ -1,0 +1,76 @@
+// background
+.bg-primary {
+  background: $color-primary;
+  color: #fff;
+}
+
+.bg-secondary {
+  background: $color-secondary;
+  color: #fff;
+}
+
+.bg-extra {
+  background: $color-extra;
+  color: #000;
+}
+
+.bg-dark {
+  // background: $color-dark;
+  color: #000;
+}
+
+.text-center {
+  text-align: center;
+}
+
+// text style
+.text-xl {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+
+  // ipad pro screen
+  @media (max-width: 960px) {
+    font-size: 30px;
+  }
+}
+
+.text-lg {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  // ipad pro screen
+  @media (max-width: 960px) {
+    font-size: 25px;
+  }
+}
+
+.text-md {
+  font-size: 24px;
+  margin-bottom: 20px;
+
+  // ipad pro screen
+  @media (max-width: 960px) {
+    font-size: 19px;
+  }
+}
+
+.text-sm {
+  font-size: 19x;
+  margin-bottom: 20px;
+}
+
+/* Padding */
+.py-sm {
+  padding: 10px 0;
+}
+
+.py-md {
+  padding: 20px 0;
+}
+
+.py-lg {
+  padding: 40px 0;
+}
